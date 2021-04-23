@@ -1,6 +1,6 @@
 variable "project_id" {
   type        = string
-  description = "The id pf the google project"
+  description = "The id of the google project"
 }
 
 variable "name" {
