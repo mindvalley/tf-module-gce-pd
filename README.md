@@ -21,9 +21,11 @@ module "disk" {
 | Name | Description | Type | Default | Required |
 |------|-------------|------|---------|:--------:|
 |<a name="name"></a> [name](#input[name])| Name of the disk | `string` | `disk` | yes |
-|<a name="size"></a> [name](#input[size])| Size of the disk | `string` | `10` | yes |
-|<a name="type"></a> [name](#input[type])| Type of the disk | `string` | `pd-ssd` | yes |
-|<a name="compute_zone"></a> [name](#input[compute_zone])| Compute zone of the disk, default to current configure zone | `string` | `null` | no |
+|<a name="size"></a> [size](#input[size])| Size of the disk | `string` | `10` | yes |
+|<a name="type"></a> [type](#input[type])| Type of the disk | `string` | `pd-ssd` | yes |
+|<a name="compute_zone"></a> [compute\_zone](#input[compute\_zone])| The compute zone of the disk, default to current configured zone | `string` | `null` | no |
+|<a name="project_id"></a> [project\_id](#input[project\_id])| The project of the disk, default to current configured project | `string` | `null` | no |
+
 
 ## Output  
 
