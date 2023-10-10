@@ -25,3 +25,8 @@ variable "compute_zone" {
   type        = string
   description = "The compute zone that the disk will be provisioned"
 }
+
+variable "labels" {
+  type        = map(string)
+  description = "The labels to be applied to the disk"
+}
