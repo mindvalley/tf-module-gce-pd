@@ -4,4 +4,5 @@ resource "google_compute_disk" "this" {
     size = var.size
     type = var.type
     zone = var.compute_zone
+    labels = var.labels
 }
